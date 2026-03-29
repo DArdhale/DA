@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashrath Ardhale | SAP BASIS Administrator</title>
+  <meta name="description" content="Dashrath Ardhale — SAP BASIS Administrator (S/4HANA, ECC, HANA, Fiori, SolMan). 4+ years experience in upgrades, performance, security, HA/DR, and cloud." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top Nav -->
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top">Dashrath<span>.</span></a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="btn btn--sm">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero container">
+      <div class="hero__content">
+        <p class="pill">Senior Consultant – SAP BASIS / Technical Administration</p>
+        <h1>Dashrath Ardhale</h1>
+        <p class="subtitle">
+          SAP BASIS Administrator with <strong>4+ years</strong> supporting <strong>SAP S/4HANA, ECC, SAP HANA, Fiori</strong> and <strong>Solution Manager 7.2</strong> landscapes.
+          Focused on upgrades, performance, security, HA/DR and cloud deployments.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn" href="#contact">Hire / Contact Me</a>
+          <a class="btn btn--ghost" href="#experience">View Experience</a>
+        </div>
+
+        <div class="hero__meta">
+          <div class="meta__item">
+            <span class="meta__label">Location</span>
+            <span class="meta__value">Pune, India</span>
+          </div>
+          <div class="meta__item">
+            <span class="meta__label">Email</span>
+            <a class="meta__value link" href="mailto:darshardhale@gmail.com">darshardhale@gmail.com</a>
+          </div>
+          <div class="meta__item">
+            <span class="meta__label">Phone</span>
+            <a class="meta__value link" href="tel:+919022035547">+91 9022035547</a>
+          </div>
+          <div class="meta__item">
+            <span class="meta__label">LinkedIn</span>
+            <a class="meta__value link" target="_blank" rel="noreferrer"
+               href="https://linkedin.com/in/dashrath-ardhale-735982209">
+               linkedin.com/in/dashrath-ardhale-735982209
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__card">
+        <div class="card">
+          <h2 class="card__title">At a Glance</h2>
+          <ul class="card__list">
+            <li>Landscape Administration: S/4HANA, ECC, HANA, Fiori, SolMan 7.2</li>
+            <li>Upgrades & Maintenance: SUM, SPAM, SAINT, Kernel, Maintenance Planner</li>
+            <li>Security: Roles/Authorizations, SSL, SNC, SSO, secure RFC</li>
+            <li>HA/DR: HANA backups, System Replication, failover & DR drills</li>
+            <li>Cloud: AWS / SAP RISE (PCE) + connectivity & network components</li>
+          </ul>
+          <div class="card__cta">
+            <a class="btn btn--sm" href="#skills">Explore Skills</a>
+            <a class="btn btn--sm btn--ghost" href="#projects">Key Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section container" id="about">
+      <div class="section__head">
+        <h2>About</h2>
+        <p>
+          I am a SAP BASIS professional experienced in L2/L3 production support and enterprise landscape operations.
+          I collaborate with functional, OS, DB, and cloud teams to ensure availability, performance, and compliance.
+        </p>
+      </div>
+
+      <div class="grid two">
+        <div class="panel">
+          <h3>What I Do</h3>
+          <ul class="clean">
+            <li>System administration, monitoring, and troubleshooting across SAP landscapes.</li>
+            <li>Client copies, system refreshes, transports, logical systems, and cutover support.</li>
+            <li>Upgrades: Support Packs, kernel, add-ons; patching and maintenance execution.</li>
+            <li>Security hardening: SSL/SNC, SSO, role management, and audit readiness (SOX).</li>
+            <li>HA/DR: backup strategy design, restore drills, and replication failover testing.</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3>Core Strengths</h3>
+          <div class="tags">
+            <span class="tag">Incident Management</span>
+            <span class="tag">Root Cause Analysis</span>
+            <span class="tag">Performance Optimization</span>
+            <span class="tag">Audit & Compliance</span>
+            <span class="tag">Runbooks & SOPs</span>
+            <span class="tag">On-call Support (P1/P2)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <h2>Skills</h2>
+          <p>Key tools and capabilities aligned to SAP BASIS operations, upgrades, and security.</p>
+        </div>
+
+        <div class="grid three">
+          <div class="panel">
+            <h3>SAP Technologies</h3>
+            <ul class="clean">
+              <li>SAP S/4HANA</li>
+              <li>SAP ECC</li>
+              <li>SAP HANA DB</li>
+              <li>SAP Fiori Front-End Server</li>
+              <li>Solution Manager 7.2</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Administration</h3>
+            <ul class="clean">
+              <li>Client creation/copies (local/remote/export-import)</li>
+              <li>System refresh, logical systems</li>
+              <li>Transport management & queue monitoring</li>
+              <li>Table reorg, OS patching</li>
+              <li>SOX audit support</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Upgrades & Security</h3>
+            <ul class="clean">
+              <li>SUM, SPAM, SAINT</li>
+              <li>Kernel upgrades, Maintenance Planner</li>
+              <li>User/role administration & authorizations</li>
+              <li>SSL certificates, SNC, secure RFC, SSO</li>
+              <li>HA/DR: backups, replication, DR drills</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section container" id="experience">
+      <div class="section__head">
+        <h2>Experience</h2>
+        <p>Roles and major responsibilities from enterprise SAP landscape support.</p>
+      </div>
+
+      <article class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__top">
+              <h3>Senior Consultant – SAP BASIS / Technical Administration</h3>
+              <span class="timeline__meta">LTI Mindtree — Pune | Nov 2021 – Present</span>
+            </div>
+
+            <ul>
+              <li>Installed, configured, and administered SAP S/4HANA, ECC, HANA DB, Fiori, and Solution Manager 7.2.</li>
+              <li>Managed client administration: creation, copies, refreshes, and logical system configuration.</li>
+              <li>Monitored system health using logs, work processes, instance profiles; ensured availability.</li>
+              <li>Performed HANA performance analysis (CPU/memory/disk/SQL plans) and removed bottlenecks.</li>
+              <li>Managed transport landscape; resolved import errors and supported release cycles.</li>
+              <li>Executed Support Pack upgrades, kernel upgrades, DB patching, add-ons (SUM/SPAM/SAINT/MP).</li>
+              <li>Handled users/roles/authorizations; collaborated with GRC/SoD teams for compliance.</li>
+              <li>Implemented SSO, SSL certificates, SNC, secure RFC communications.</li>
+              <li>Designed HANA backup strategy; performed restore testing; supported replication & DR drills.</li>
+              <li>Worked with AWS / GCP / SAP RISE (PCE): connectivity, load balancers, network components.</li>
+              <li>Provided L2/L3 production support; root-cause analysis and permanent fixes; on-call P1/P2.</li>
+              <li>Created SOPs, runbooks, system documentation, and backup/DR plans.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <h2>Key Projects</h2>
+          <p>Selected projects highlighting SAP landscape support and cloud operations.</p>
+        </div>
+
+        <div class="grid two">
+          <div class="project">
+            <h3>SAP S/4HANA Landscape Support</h3>
+            <p>
+              Supported production and non-production S/4HANA systems with HANA DB—performance tuning, upgrades,
+              system refreshes, and compliance/availability improvements.
+            </p>
+            <ul class="clean">
+              <li>Performance tuning and proactive monitoring</li>
+              <li>Kernel/SP upgrades and maintenance planning</li>
+              <li>System refresh execution and post-refresh validation</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>RISE Support</h3>
+            <p>
+              Coordinated with cloud, network, and security teams for connectivity, availability, and DR readiness
+              on SAP RISE environments (PCE).
+            </p>
+            <ul class="clean">
+              <li>Cloud connectivity and network component alignment</li>
+              <li>High availability / DR readiness checks</li>
+              <li>Operational support for incidents and changes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certification -->
+    <section class="section container" id="education">
+      <div class="section__head">
+        <h2>Education & Certification</h2>
+        <p>Academic background and SAP certification.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="panel">
+          <h3>Education</h3>
+          <p><strong>Bachelor of Computer Science (BCS)</strong><br/>Solapur University</p>
+        </div>
+
+        <div class="panel">
+          <h3>Certification</h3>
+          <p><strong>SAP Certified Technology Specialist</strong><br/>SAP S/4HANA Conversion and SAP System Upgrade</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p>If you want to discuss SAP BASIS opportunities, upgrades, HANA performance, or cloud operations—reach out.</p>
+        </div>
+
+        <div class="contact">
+          <div class="contact__card">
+            <h3>Get in touch</h3>
+            <p class="muted">Fastest response via email or LinkedIn.</p>
+
+            <div class="contact__links">
+              <a class="btn" href="mailto:darshardhale@gmail.com">Email Me</a>
+              <a class="btn btn--ghost" target="_blank" rel="noreferrer"
+                 href="https://linkedin.com/in/dashrath-ardhale-735982209">
+                LinkedIn
+              </a>
+              <a class="btn btn--ghost" href="tel:+919022035547">Call</a>
+            </div>
+
+            <div class="small muted">
+              © <span id="year"></span> Dashrath Ardhale · Built with HTML/CSS
+            </div>
+          </div>
+
+          <form class="contact__form" onsubmit="return false;">
+            <h3>Quick Message (Optional)</h3>
+            <label>
+              Your Name
+              <input type="text" placeholder="Enter your name" />
+            </label>
+
+            <label>
+              Your Email
+              <input type="email" placeholder="Enter your email" />
+            </label>
+
+            <label>
+              Message
+              <textarea rows="5" placeholder="Write a message..."></textarea>
+            </label>
+
+            <button class="btn" type="button" onclick="alert('This demo form does not send emails. Use the Email Me button instead.')">
+              Send Message
+            </button>
+            <p class="small muted">
+              Note: This is a static website. To receive messages, I can integrate Formspree / Google Forms / SMTP later.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="link">Back to top ↑</a>
+      <span class="muted">Designed for ATS-friendly and recruiter-friendly viewing</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
